@@ -1,4 +1,4 @@
-# RS-LinkFusion インストールスクリプト(Windows / Windows Server 共通)。
+﻿# RS-LinkFusion インストールスクリプト(Windows / Windows Server 共通)。
 #
 # 使い方(管理者権限のPowerShellで):
 #   Invoke-WebRequest -Uri "https://github.com/aon-co-jp/RS-LinkFusion/releases/latest/download/rs-linkfusion-windows-x86_64.zip" -OutFile rs-linkfusion.zip
