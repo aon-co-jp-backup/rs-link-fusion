@@ -4,7 +4,10 @@ GitHubリポジトリ: [aon-co-jp/rs-link-fusion](https://github.com/aon-co-jp/r
 (2026-07-31に`RS-LinkFusion`から改名)。
 公開先: `https://easy-web.tokyo/rs-link-fusion`(デモ環境:
 `https://easy-web.tokyo/rs-link-fusion/demo`)。
-VPS上の作業パス: `/root/rs-link-fusion`。
+VPS上の作業パス: `/root/repository/rs-link-fusion`(2026-08-28、VPS
+ディレクトリ構成整理によりリポジトリは`/root/repository/`配下へ移動。
+旧パス`/root/rs-link-fusion`はシンボリックリンクとして残しており、
+systemdサービス等既存の参照はそのまま機能する)。
 
 > ⚠️ **正直な開示**: 前回セッションはリミット接近で`cargo build`/
 > `cargo test`未検証のまま中断していたが、本セッションで検証・
